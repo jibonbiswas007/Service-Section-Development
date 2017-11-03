@@ -1,0 +1,139 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Sumana:400,700');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+    color: #333333;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Sumana', serif;
+    font-size: 14px;
+    color: #8B8B8B;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+/*************************************/
+ /*           Service Area
+/**************************************/
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 65px;
+}
+.section-title h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+.single-service {
+    padding: 0 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.service-bg-1 {
+    background: url(img/1.jpg);
+}
+.service-bg-2 {
+    background: url(img/2.jpg);
+}
+.service-bg-3 {
+    background: url(img/3.jpg);
+}
+.service-bg-4 {
+    background: url(img/4.jpg);
+}
+.service-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 220px;
+}
+.service-info {}
+.service-info h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 30px 0;
+}
+.service-info p {
+	line-height: 25px;
+	margin: 0;
+}
+.single-service a.see-more-btn {
+	color: #2ECC71;
+	font-weight: 700;
+	font-size: 15px;
+	display: inline-block;
+	padding: 10px 0;
+	margin: 25px 0;
+	border-radius: 50px;
+}
+.single-service a.see-more-btn:hover {
+	background: #2ECC71;
+	color: #fff;
+    padding: 10px 20px;
+}
+.see-more-btn i.fa {
+	padding-left: 10px;
+}
+.single-service:hover {
+    box-shadow: 0 4px 10px 5px #DEF2E6;
+}
